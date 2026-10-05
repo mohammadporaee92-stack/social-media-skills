@@ -13,7 +13,7 @@ export function seed() {
   const S = {
     site_title: 'محمد پورایی | آموزش کاربردی هوش مصنوعی و اتوماسیون',
     site_description: 'ابزارهای هوش مصنوعی، پرامپت‌های کاربردی، آموزش اتوماسیون و تجربه‌های واقعی استفاده از AI به زبان ساده.',
-    site_url: '', portrait_url: '', contact_email: 'hello@example.com',
+    site_url: '', portrait_url: '/mohammad.jpg', contact_email: 'hello@example.com',
     telegram_cta_url: 'https://t.me/', courses_enabled: '0', consulting_enabled: '0', services_enabled: '0', products_enabled: '0',
   };
   for (const [k, v] of Object.entries(S)) run('INSERT INTO site_settings VALUES (?,?)', k, v);
