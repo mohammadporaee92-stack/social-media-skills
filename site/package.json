@@ -1,0 +1,7 @@
+{
+  "name": "mohammad-poraee-site",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node --watch --no-warnings server/index.js", "start": "node --no-warnings server/index.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
