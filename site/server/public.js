@@ -27,7 +27,7 @@ pub.get('/', (req, res) => {
   const start = [['شروع با هوش مصنوعی', 'مفاهیم پایه بدون اصطلاحات پیچیده', 'شروع یادگیری', '/start', '١'], ['ابزارهای AI', 'بهترین ابزارها برای کارهای مختلف', 'مشاهده ابزارها', '/tools', '٢'], ['پرامپت‌های کاربردی', 'پرامپت‌هایی که می‌توانی مستقیماً استفاده کنی', 'مشاهده پرامپت‌ها', '/prompts', '٣'], ['اتوماسیون', 'کارهای تکراری را به هوش مصنوعی بسپار', 'یادگیری اتوماسیون', '/automation', '۴']];
   const strip = ['AI Tools', 'Prompt Engineering', 'Automation', 'AI Agents', 'کاربرد AI در کار و زندگی'];
   const body = `
-<section class="hero"><div class="wrap hero-in"><div class="hero-text">
+<section class="hero"><canvas id="ai3d" aria-hidden="true"></canvas><div class="wrap hero-in"><div class="hero-text">
 <span class="eyebrow">هوش مصنوعی، ساده و کاربردی</span>
 <h1>هوش مصنوعی فقط برای برنامه‌نویس‌ها نیست.</h1>
 <p class="lead">یاد بگیر چطور از AI برای کار، زندگی و ساخت اتوماسیون‌های واقعی استفاده کنی.</p>
